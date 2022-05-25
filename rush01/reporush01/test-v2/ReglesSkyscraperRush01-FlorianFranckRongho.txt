@@ -1,0 +1,14 @@
+Regles pour resoudre le Skyscraper 
+
+- fleche 4 --> la ligne est 1 2 3 4
+- fleche 1 --> sur la premiere case : 1
+- fleche 2 et derniere case = 4 --> sur la premiere case : 3
+- chaque nombre est recherché 4 fois
+
+- si un nombre est present 3 fois, enlever les lignes et les colonnes de ces nombres, la case restante contient le 4eme et dernier nombre
+
+- si 2 nombre presents cote a cote verticalement ou horizontalement, regarder la fleche X, en verifiant la condition on obtient le resultat
+
+-si une ligne ou colonne est peuplée de 3 nombres, on obtient le 4eme par deduction ou soustraction (doit etre égal a 10)
+
+
